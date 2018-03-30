@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to bottom right, rgb(208, 227, 252), rgb(255, 255, 255));
+
+    font-family: sans-serif;
+  }
+  .searchBox {
+    width: 90vw;
+    margin:auto;
+    padding: 1vw;
+    margin-bottom: 1vw;
+  }
+  .searchBox input {
+    font-size:large;
+    padding: 0.5vw;
+  }
+  .searchBox input:focus {
+    outline: none;
+  }
+  .searchBox input[type="text"] {
+    width: 70vw;
+    margin-right: 1vw;
+  }
+  .searchBox input[type="button"] {
+    color: white;
+    background-color:rgb(186, 186, 186);
+    width: 13vw;
+    margin-left: 1vw;
+  }
+
+  .smallGrayRounded {
+    border: 0.3vw solid rgb(236, 236, 236);
+    border-radius: 10px;
+    background-color: white;
+  }
+  .bigGrayRounded {
+    border: 0.3vw solid rgb(236, 236, 236);
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(186, 186, 186);
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 1vw;
+    margin:auto;
+    vertical-align: top;
+  }
+  .halfScreenBlock {
+    width: 40vw;
+    padding: 1vw;
+    margin-top: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .halfScreenBlock h3 {
+    font-size: x-large;
+    font-weight: 100;
+    color: rgb(124, 124, 124);
+    margin-top: 0vw;
+  }
+
+  .divFlexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .divFlexGrid img {
+    width: 12vw;
+    padding: 0.5vw;
+  }
+
+  .list {
+    margin:auto;
+  }
+  .list p {
+    color: black;
+  }
